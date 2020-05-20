@@ -1,0 +1,7 @@
+<h3 class="msg">we have sent your verification to {{number}}</h3>
+<p class="msg">Please enter code </p>
+<form action="/verifys" method="post">
+    <input type="hidden" name="id" value="{{id}}">
+    <input class="number" type="text" name="token">
+    <input class="btn" type="submit">
+</form>

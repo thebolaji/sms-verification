@@ -1,8 +1,21 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: teal;
 }
 
 a {
-  color: #00B7FF;
+  color: #00b7ff;
+}
+
+.number {
+  padding: 5px 20px;
+}
+
+.btn {
+  padding: 6px 6px;
+  background-color: tomato;
+  border: none;
+  color: white;
+  cursor: pointer;
 }
